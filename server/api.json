@@ -1,0 +1,154 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Pavazha Malli",
+      "movie": "Single (Think Indie)",
+      "artist": "Sai Abhyankkar",
+      "image": "https://i.pinimg.com/736x/0b/47/ff/0b47ffbfb15c892b31cb4a9a68f90e64.jpg",
+      "url": "https://www.youtube.com/watch?v=b68HETiNO98&list=RDb68HETiNO98&start_radio=1",
+      "urlid": "b68HETiNO98",
+      "description": "A vibrant and catchy indie pop track by Sai Abhyankkar known for its upbeat rhythm."
+    },
+    {
+      "id": 2,
+      "title": "Enakenna Yaarum Illaye (Aako)",
+      "movie": "Love Insurance Kompany (LIK)",
+      "artist": "Anirudh Ravichander",
+      "image": "https://i.pinimg.com/1200x/0d/07/c2/0d07c27455772f396d505186207ae34c.jpg",
+      "url": "https://www.youtube.com/watch?v=wEBQqQ8apdI&list=RDwEBQqQ8apdI&start_radio=1",
+      "urlid": "wEBQqQ8apdI",
+      "description": "A soulful melody about solitude and longing, composed and sung by Anirudh."
+    },
+    {
+      "id": 3,
+      "title": "Dheema",
+      "movie": "Love Insurance Kompany (LIK)",
+      "artist": "Anirudh Ravichander",
+      "image": "https://i.pinimg.com/736x/83/90/99/8390998f1d1edfba53b5d9ae4994f77b.jpg",
+      "url": "https://www.youtube.com/watch?v=H1frBzuWqqM&list=RDH1frBzuWqqM&start_radio=1",
+      "urlid": "H1frBzuWqqM",
+      "description": "An energetic track from the movie LIK featuring modern beats and Anirudh's signature style."
+    },
+    {
+      "id": 4,
+      "title": "Oorum Blood",
+      "movie": "Dude",
+      "artist": "Sai Abhyankkar",
+      "image": "https://i.pinimg.com/1200x/18/6d/34/186d348c03be52f69673e3598aa02d6f.jpg",
+      "url": "https://www.youtube.com/watch?v=k9_JbEaRxso&list=RDb68HETiNO98&index=9",
+      "urlid": "k9_JbEaRxso",
+      "description": "A rhythmic and trendy song from the project 'Dude' by Sai Abhyankkar."
+    },
+    {
+      "id": 5,
+      "title": "So Baby",
+      "movie": "Doctor",
+      "artist": "Anirudh Ravichander",
+      "image": "https://i.pinimg.com/1200x/96/db/e0/96dbe031c48d6140e7d92b8e56c8c16c.jpg",
+      "url": "https://www.youtube.com/watch?v=gxxT3Nz-kyc&list=RDgxxT3Nz-kyc&start_radio=1",
+      "urlid": "xIEmIue7ubI",
+      "description": "A unique blend of classical elements and Western beats from the movie Doctor."
+    },
+    {
+      "id": 6,
+      "title": "Munbe Vaa",
+      "movie": "Sillunu Oru Kadhal",
+      "artist": "A.R. Rahman",
+      "image": "https://i.pinimg.com/1200x/33/7a/69/337a69fd25fe7c1c19254da90b3168df.jpg",
+      "url": "https://www.youtube.com/watch?v=rp3_FhRnIRw&list=RDrp3_FhRnIRw&start_radio=1",
+      "urlid": "rp3_FhRnIRw",
+      "description": "A timeless romantic classic composed by A.R. Rahman, loved for its haunting melody."
+    },
+    {
+      "id": 7,
+      "title": "Naan Gaali",
+      "movie": "Good Night",
+      "artist": "Sean Roldan",
+      "image": "https://i.pinimg.com/1200x/eb/1d/ca/eb1dca40688c5f8e2642258b5f7c8d41.jpg",
+      "url": "https://www.youtube.com/watch?v=pmNA98zoaUk&list=RDpmNA98zoaUk&start_radio=1",
+      "urlid": "pmNA98zoaUk",
+      "description": "A breezy and lighthearted track by Sean Roldan from the feel-good movie Good Night."
+    },
+    {
+      "id": 8,
+      "title": "Sithira Puthiri",
+      "movie": "Single (Think Indie)",
+      "artist": "Sai Abhyankkar",
+      "image": "https://i.pinimg.com/1200x/f9/23/ca/f923caa9c89e9a587d4f46d38cf21883.jpg",
+      "url": "https://www.youtube.com/watch?v=PqVvrF7pwDQ&list=RDPqVvrF7pwDQ&start_radio=1",
+      "urlid": "PqVvrF7pwDQ",
+      "description": "An indie experimental track showcasing Sai Abhyankkar's versatile musical range."
+    },
+    {
+      "id": 9,
+      "title": "AA23 Theme (Title Track)",
+      "movie": "AA23 (Allu Arjun & Lokesh)",
+      "artist": "Anirudh Ravichander",
+      "image": "https://i.pinimg.com/736x/fd/b6/5e/fdb65ea2286c45aa3a7395235b67dd52.jpg",
+      "url": "https://www.youtube.com/watch?v=vpN-xTkg4m0&list=RDvpN-xTkg4m0&start_radio=1",
+      "urlid": "vpN-xTkg4m0",
+      "description": "A high-octane background score and theme track composed for the AA23 project."
+    },
+    {
+      "id": 10,
+      "title": "Antha kanna paathaka",
+      "movie": "Master",
+      "artist": "Anirudh Ravichandhar",
+      "image": "https://i.pinimg.com/1200x/bd/a1/41/bda1412eb07263373a08479e9c84ab59.jpg",
+      "url": "https://www.youtube.com/watch?v=-8i3p4HbbXA&list=RDb68HETiNO98&index=19",
+      "urlid": "8O662s74kM8",
+      "description": "A melodious and sweet song from the blockbuster movie Master, sung by Yuvan Shankar Raja."
+    },
+    {
+      "id": 11,
+      "title": "The Life of Ram",
+      "movie": "96 (Jaanu)",
+      "artist": "Govind Vasantha",
+      "image": "https://i.pinimg.com/736x/6c/83/c3/6c83c34dc15dd89238914f6b3b361161.jpg",
+      "url": "https://www.youtube.com/watch?v=6LD30ChPsSs&list=RD6LD30ChPsSs&start_radio=1",
+      "urlid": "6LD30ChPsSs",
+      "description": "A deep, travel-inspired anthem about freedom and self-discovery from the movie 96."
+    },
+    {
+      "id": 12,
+      "title": "Mun Andhi",
+      "movie": "7 Aum Arivu",
+      "artist": "Harris Jayaraj",
+      "image": "https://i.pinimg.com/1200x/d4/52/ca/d452ca21ceb15d9e2c3f68eef3dbde41.jpg",
+      "url": "https://www.youtube.com/watch?v=7fFFbFp8nOg&list=RD7fFFbFp8nOg&start_radio=1",
+      "urlid": "7fFFbFp8nOg",
+      "description": "A stylish and soothing melody by Harris Jayaraj, known for its creative orchestration."
+    },
+    {
+      "id": 13,
+      "title": "Thalapathi kacheri",
+      "movie": "Jananayagan",
+      "artist": "Anirudh Ravichandhar",
+      "image": "https://i.pinimg.com/736x/c0/ec/37/c0ec370fd84fa3975504596be07c820e.jpg",
+      "url": "https://www.youtube.com/watch?v=KgpnfT5bgLY&list=RDKgpnfT5bgLY&start_radio=1",
+      "urlid": "KgpnfT5bgLY",
+      "description": "A powerful folk-infused track with heavy percussion, typical of Anirudh's mass appeals."
+    },
+    {
+      "id": 14,
+      "title": "Monica",
+      "movie": "Coolie",
+      "artist": "Anirudh Ravichander",
+      "image": "https://i.pinimg.com/1200x/77/54/05/77540561e2652735ef644bb3aae3f33a.jpg",
+      "url": "https://www.youtube.com/watch?v=neOasLBWoy0",
+      "urlid": "neOasLBWoy0",
+      "description": "A stylish retro-modern track from the movie Coolie, composed by Anirudh."
+    },
+    {
+  "id": 15,
+  "title": "I See You (Theme from Avatar)",
+  "movie": "Avatar",
+  "artist": "Leona Lewis",
+  "image": "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+  "url": "https://www.youtube.com/watch?v=25pU0v77UTo",
+  "urlid": "25pU0v77UTo",
+  "description": "The hauntingly beautiful official theme song for James Cameron's Avatar, composed by James Horner."
+}
+  ]
+}

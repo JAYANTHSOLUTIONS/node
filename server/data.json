@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Bruce Wayne",
+      "role": "Batman"
+    },
+    {
+      "id": "2",
+      "name": "Clark Kent",
+      "role": "Superman"
+    },
+    {
+      "name": "peter",
+      "role": "parker",
+      "id": "pCsM02qw3CI"
+    },
+    {
+      "id": "0nJRR2CzKgU",
+      "name": "",
+      "role": "spidey"
+    },
+    {
+      "id": "V_Epa1sv9RQ",
+      "name": "",
+      "role": ""
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

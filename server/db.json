@@ -1,0 +1,25 @@
+{
+  "todoList": [
+    {
+      "id": "418e856e-3a5a-4d82-8f23-d08dc344ca99",
+      "task": "good sleep"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
