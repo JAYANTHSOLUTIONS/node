@@ -1,0 +1,29 @@
+{/* {apt.map((da) => (
+        <h2>{da.Author}</h2>
+      ))} */}
+
+      {/* <form>
+        <label>Id:</label><input onChange={handleid} type='number' placeholder='Enter Id'></input>
+        <button onClick={handlesub} type='button'>submit</button>
+      </form>
+      {!(inid) ? null :
+        <p>{inid}</p>} */}
+
+
+
+      {/* {!(da) ? null :
+
+        <div>
+          <h1>Id:{da.id}</h1>
+          <h2>Author:{da.Author}</h2>
+          <h2>Role:{da.role}</h2>
+        </div>
+      } */}
+
+
+
+  {/* <img src={da.image} alt='' height={50} width={70}></img>
+          <h1>{da.item_name}</h1>
+          <h2>Price:{da.item_price}</h2>
+          <h2>Quantity:{da.item_quantity}</h2>
+          <h2>Total:{da.item_total}</h2> */}

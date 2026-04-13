@@ -1,184 +1,136 @@
-.counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-  margin-bottom: 24px;
-
-  &:hover {
-    border-color: var(--accent-border);
-  }
-  &:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
+/* =========================================
+   1. GLOBAL & RESET STYLES
+   ========================================= */
+:root {
+    --primary-color: #0d6efd;
+    --hover-lift: -12px;
 }
 
-.hero {
-  position: relative;
-
-  .base,
-  .framework,
-  .vite {
-    inset-inline: 0;
-    margin: 0 auto;
-  }
-
-  .base {
-    width: 170px;
-    position: relative;
-    z-index: 0;
-  }
-
-  .framework,
-  .vite {
-    position: absolute;
-  }
-
-  .framework {
-    z-index: 1;
-    top: 34px;
-    height: 28px;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
-      scale(1.4);
-  }
-
-  .vite {
-    z-index: 0;
-    top: 107px;
-    height: 26px;
-    width: auto;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
-      scale(0.8);
-  }
+.bg-light {
+    background-color: #f8f9fa !important;
 }
 
-#center {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  place-content: center;
-  place-items: center;
-  flex-grow: 1;
-
-  @media (max-width: 1024px) {
-    padding: 32px 20px 24px;
-    gap: 18px;
-  }
-}
-
-#next-steps {
-  display: flex;
-  border-top: 1px solid var(--border);
-  text-align: left;
-
-  & > div {
-    flex: 1 1 0;
-    padding: 32px;
-    @media (max-width: 1024px) {
-      padding: 24px 20px;
-    }
-  }
-
-  .icon {
-    margin-bottom: 16px;
-    width: 22px;
-    height: 22px;
-  }
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-#docs {
-  border-right: 1px solid var(--border);
-
-  @media (max-width: 1024px) {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-  }
-}
-
-#next-steps ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 8px;
-  margin: 32px 0 0;
-
-  .logo {
-    height: 18px;
-  }
-
-  a {
-    color: var(--text-h);
-    font-size: 16px;
-    border-radius: 6px;
-    background: var(--social-bg);
+/* Fix for the 'collec' container if used manually */
+.collec {
     display: flex;
-    padding: 6px 12px;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    transition: box-shadow 0.3s;
-
-    &:hover {
-      box-shadow: var(--shadow);
-    }
-    .button-icon {
-      height: 18px;
-      width: 18px;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    margin-top: 20px;
     flex-wrap: wrap;
+    gap: 1.5rem;
     justify-content: center;
-
-    li {
-      flex: 1 1 calc(50% - 8px);
-    }
-
-    a {
-      width: 100%;
-      justify-content: center;
-      box-sizing: border-box;
-    }
-  }
 }
 
-#spacer {
-  height: 88px;
-  border-top: 1px solid var(--border);
-  @media (max-width: 1024px) {
-    height: 48px;
-  }
+/* =========================================
+   2. RUN.JSX (GRID SYSTEM)
+   ========================================= */
+/* Force columns to match height so cards align perfectly */
+.row.g-4 {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.ticks {
-  position: relative;
-  width: 100%;
+.row.g-4 > .col {
+    display: flex; /* This stretches the card to fill the column height */
+}
 
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    top: -4.5px;
-    border: 5px solid transparent;
-  }
+@media (max-width: 768px) {
+    .display-5 {
+        font-size: 2rem;
+    }
+}
 
-  &::before {
-    left: 0;
-    border-left-color: var(--border);
-  }
-  &::after {
-    right: 0;
-    border-right-color: var(--border);
-  }
+/* =========================================
+   3. CARD.JSX (CARDS & HOVER)
+   ========================================= */
+.card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* The Magic Animation */
+.card:hover {
+    transform: translateY(var(--hover-lift)) scale(1.01) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+    border-color: var(--primary-color) !important;
+    z-index: 5;
+}
+
+/* Image Uniformity */
+.card-img-top {
+    height: 200px !important;
+    object-fit: cover !important; /* Fixed the previous 'objectFit' syntax error */
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Text Truncation for Titles */
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* Ensure card footer/buttons stay at the bottom */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
+
+/* =========================================
+   4. FORM STYLES
+   ========================================= */
+.rounded-top-4 {
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15) !important;
+    border-color: var(--primary-color) !important;
+    outline: 0;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1) !important;
+}
+
+/* =========================================
+   5. BUTTON REFINEMENTS
+   ========================================= */
+.btn {
+    border-radius: 8px;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    box-shadow: 0 4px 6px rgba(13, 110, 253, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(13, 110, 253, 0.3);
 }
